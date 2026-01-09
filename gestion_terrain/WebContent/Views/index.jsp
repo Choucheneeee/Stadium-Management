@@ -81,7 +81,7 @@
     
      <div class="carousel-caption d-none d-md-block">
     <h5>Basketball</h5>
-    <p>Le sport le plus populaire en Amérique</p>
+    <p>Le sport le plus populaire en Amï¿½rique</p>
   </div>
   </div>
     <div class="carousel-item">
@@ -89,7 +89,7 @@
    
 	<div class="carousel-caption d-none d-md-block">
     <h5>Volley</h5>
-    <p>Le sport le plus collégial</p>
+    <p>Le sport le plus collï¿½gial</p>
   </div>
   </div>
     
@@ -117,7 +117,7 @@
 
         <header class="section-header">
           <h3>Services</h3>
-          <p>voici quelques informations concernant la gestion des réservations des terrains.</p>
+          <p>voici quelques informations concernant la gestion des rï¿½servations des terrains.</p>
         </header>
 
         <div class="row about-container">
@@ -127,19 +127,19 @@
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-calendar "></i></div>
               <h4 class="title"><a href="">Horaire d'ouverture</a></h4>
-              <p class="description">Le terrain de football est ouvert 7 jours sur 7, 12 heures sur 24 de 9 heures à 21 heures.</p>
+              <p class="description">Le terrain de football est ouvert 7 jours sur 7, 12 heures sur 24 de 9 heures ï¿½ 21 heures.</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-book"></i></div>
-              <h4 class="title"><a href="">Instructions et règlements</a></h4>
-              <p class="description">Deux équipes de 5 personnes au moins dont chaque équipe doivent être présentes avant l'heure de 10 minutes , Le personne qu'a effectuer la réservation doit dispose d'une pièce d'identité</p>
+              <h4 class="title"><a href="">Instructions et rï¿½glements</a></h4>
+              <p class="description">Deux ï¿½quipes de 5 personnes au moins dont chaque ï¿½quipe doivent ï¿½tre prï¿½sentes avant l'heure de 10 minutes , Le personne qu'a effectuer la rï¿½servation doit dispose d'une piï¿½ce d'identitï¿½</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Dimension de terrain </a></h4>
-              <p class="description"> Le terrain de football a une longueur de 90 mètres, et une largeur de 45 mètres.</p>
+              <p class="description"> Le terrain de football a une longueur de 90 mï¿½tres, et une largeur de 45 mï¿½tres.</p>
             </div>
 
           </div>
@@ -162,14 +162,14 @@
           <div class="col-lg-12 content order-lg-1 order-2" style="margin-top: 30px;">
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-book"></i></div>
-              <h4 class="title"><a href="">Instructions et règlements</a></h4>
-              <p class="description">Deux équipes de 4 personnes au moins dont chaque équipe doivent être présentes avant l'heure de 10 minutes , Le personne qu'a effectuer la réservation doit dispose d'une pièce d'identité</p>
+              <h4 class="title"><a href="">Instructions et rï¿½glements</a></h4>
+              <p class="description">Deux ï¿½quipes de 4 personnes au moins dont chaque ï¿½quipe doivent ï¿½tre prï¿½sentes avant l'heure de 10 minutes , Le personne qu'a effectuer la rï¿½servation doit dispose d'une piï¿½ce d'identitï¿½</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Dimension de terrain </a></h4>
-              <p class="description"> Le terrain de Basketball a une longueur de 28 mètres, et une largeur de 15 mètres.</p>
+              <p class="description"> Le terrain de Basketball a une longueur de 28 mï¿½tres, et une largeur de 15 mï¿½tres.</p>
             </div>
           </div>
         </div>
@@ -183,14 +183,14 @@
            
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-book"></i></div>
-              <h4 class="title"><a href="">Instructions et règlements</a></h4>
-              <p class="description">Deux équipes de 6 personnes au moins dont chaque équipe doivent être présentes avant l'heure de 10 minutes , Le personne qu'a effectuer la réservation doit dispose d'une pièce d'identité</p>
+              <h4 class="title"><a href="">Instructions et rï¿½glements</a></h4>
+              <p class="description">Deux ï¿½quipes de 6 personnes au moins dont chaque ï¿½quipe doivent ï¿½tre prï¿½sentes avant l'heure de 10 minutes , Le personne qu'a effectuer la rï¿½servation doit dispose d'une piï¿½ce d'identitï¿½</p>
             </div>
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">Dimension de terrain </a></h4>
-              <p class="description"> Le terrain de Volé a une longueur de 18 mètres, et une largeur de 9 mètres.</p>
+              <p class="description"> Le terrain de Volï¿½ a une longueur de 18 mï¿½tres, et une largeur de 9 mï¿½tres.</p>
             </div>
 
           </div>
@@ -242,12 +242,12 @@
             </div>
 
             <div class="form">
-              <div id="sendmessage">Votre message a été envoyé. Merci!</div>
+              <div id="sendmessage">Votre message a ï¿½tï¿½ envoyï¿½. Merci!</div>
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="votre nom" data-rule="minlen:4" data-msg="Veuillez saisir au moins 4 caractères" />
+                    <input type="text" name="name" class="form-control" id="name" placeholder="votre nom" data-rule="minlen:4" data-msg="Veuillez saisir au moins 4 caractï¿½res" />
                     <div class="validation"></div>
                   </div>
                   <div class="form-group col-lg-6">
@@ -256,11 +256,11 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Veuillez saisir au moins 8 caractères de sujet" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Veuillez saisir au moins 8 caractï¿½res de sujet" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="S'il vous plaît écrivez quelque chose pour nous" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="S'il vous plaï¿½t ï¿½crivez quelque chose pour nous" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="text-center"><button type="submit" title="Send Message">Envoyer le message</button></div>

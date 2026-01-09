@@ -1,48 +1,41 @@
-version: '3'
- 
-services:
+version: '3.8'
 
-  db:
-    image: mysql:latest
-    container_name: mysqldb
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql  # Name it exactly as your app expects!
+    hostname: mysql        # This ensures the hostname is 'mysql'
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: terrain
-    network_mode: bridge
+      MYSQL_ROOT_HOST: '%'
     ports:
-      - "3306:3306"
+      - "8900:3306"
     volumes:
-      - dbdata:/var/lib/mysql
+      - ./terrain.sql:/docker-entrypoint-initdb.d/terrain.sql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: unless-stopped
       
   mywebapp:
-    image: moufakkir/gestion_terrain:1.0
+    build: .
     container_name: gestion_terrain
     ports:
-      - 8080:8080
+      - "8901:8080"
+    depends_on:
+      - mysql
     links:
-      - 'db:mysql'
-    network_mode: bridge
-    environment:
-      MODX_DB_HOST: 'mysql:3306'
-      MODX_DB_PASSWORD: root
+      - mysql  # This creates the network alias
+    restart: unless-stopped
     
   phpmyadmin:
     image: phpmyadmin:latest
     container_name: phpmyadmin
-    network_mode: bridge
-    links:
-      - db
+    depends_on:
+      - mysql
     environment:
-      PMA_HOST: mysqldb
+      PMA_HOST: mysql
       PMA_PORT: 3306
       PMA_ARBITRARY: 1
-    restart: always
     ports:
-      - 8081:80
-volumes:
-  dbdata:
-  
-
-  
-  
- 
+      - "8902:80"
+    restart: unless-stopped

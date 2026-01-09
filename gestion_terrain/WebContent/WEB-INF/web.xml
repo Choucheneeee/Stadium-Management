@@ -23,9 +23,15 @@
 	</servlet>
 	
 	
+	
 	<servlet-mapping>
 		<servlet-name>Acceuil</servlet-name>
 		<url-pattern>/Acceuil</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Acceuil</servlet-name>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
 	<!-- <servlet-mapping>
